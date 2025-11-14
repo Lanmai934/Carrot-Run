@@ -1,6 +1,7 @@
 // 关卡系统 - 管理多主题地图和关卡生成
 import { GameConfig } from './GameConfig'
-import { Obstacle, ObstacleType, Item, ItemType, Ground, GameObject } from './GameWorld'
+import { Obstacle, ObstacleType, Item, Ground, GameObject } from './GameWorld'
+import { ItemType } from './ItemSystem'
 import { Vector2 } from './PhysicsEngine'
 import { AudioHelper } from '../game/AudioSystem'
 

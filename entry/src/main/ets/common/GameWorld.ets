@@ -15,15 +15,6 @@ export enum ObstacleType {
   WALL = 'wall'
 }
 
-// 道具类型
-export enum ItemType {
-  COIN = 'coin',
-  SPEED_BOOST = 'speed_boost',
-  SHIELD = 'shield',
-  MAGNET = 'magnet',
-  JUMP_BOOST = 'jump_boost'
-}
-
 // 游戏对象基类
 export abstract class GameObject {
   position: Vector2
